@@ -30,7 +30,7 @@ const Scene = () => {
             <Canvas>
                 <OrbitControls enableZoom enablePan enableRotate />
                 <directionalLight position={[1, 1, 1]} intensity={10} color={"#9cdba6"} />
-                <color attach={"background"} args={["#771010ff"]} />
+                <color attach={"background"} args={["#ffffff"]} />
                 <RotatingCube />
             </Canvas>
 
