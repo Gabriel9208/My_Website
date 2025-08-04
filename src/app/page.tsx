@@ -1,16 +1,12 @@
-import Scene from "@/app/component/three/scene";
-import Navbar from "@/app/section/navbar";
-
-import "@/app/globals.css";
+import Navbar from "@/app/section/Navbar";
+import Hero from "@/app/section/Hero";
+import "@/app/index.css";
 
 export default function App() {
   return (
-    <>
-      <Navbar>
-
-      </Navbar>
-      <Scene>
-      </Scene>
-    </>
+    <main className="max-w-7xl mx-auto">
+      <Navbar />
+      <Hero />
+    </main>
   );
 } 
